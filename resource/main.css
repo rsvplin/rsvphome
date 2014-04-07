@@ -1,0 +1,226 @@
+html,body {
+
+	font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial,
+		Verdana, sans-serif;
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;	
+	word-spacing: -1px;
+
+	TEXT-ALIGN: center;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0px;
+	padding: 0px;
+}
+ul li {
+	list-style:none
+}
+div.bottom {
+	font-size: 12px;
+	width: 405px;
+	margin: 40px auto;
+	margin-top:50px;
+	white-space: nowrap;
+}
+
+div.bottom a {
+	color: rgb(10, 86, 146);
+	text-decoration: none;
+}
+
+div.bottom a.has_right_border {
+	padding-right: 10px;
+	margin-right: 10px;
+	display: block;
+	white-space: nowrap;
+	float: left;
+	border-right: #575757 1px solid;
+}
+
+span.copyright {
+	color: rgb(87, 87, 87);
+	float: left;
+	margin-right: 30px;
+}
+
+
+#boyan-header{*zoom:1;border-bottom:1px solid #e6e6e6;width:1024px;
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+padding-top:10px;}
+#boyan-main {
+MARGIN-RIGHT: auto;
+MARGIN-LEFT: auto;
+width:1024px;
+}
+#boyan-main #content_wrapper{*zoom:1;background-image:url('../images/content_background.png');
+padding-top:50px;
+background-position:center top, left top;background-repeat:repeat-y;border-bottom:1px solid #e6e6e6;width:1024px;}#htc-main:before,#htc-main:after{content_title:"";display:table;}
+
+header{*zoom:1;
+	width:1024px;
+	padding-top: 10;
+	margin-right: auto;
+	margin-bottom: ;
+	margin-left: auto;
+}header:after{content:"";display:table;}
+header:after{clear:both;}
+header .nav{
+	display:inline;
+	float:left;
+	width:480px;
+	text-align:left;
+	margin-top: 0;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0px;
+}header .nav ul{*zoom:1;
+	padding:0;
+	margin-top: 15px;
+	margin-right: 0;
+	/* [disabled]margin-bottom: 3px; */
+	margin-left: 5px;
+}header .nav ul:before,header .nav ul:after{content:"";display:table;}
+
+header .nav ul li{*zoom:1;
+	float:left;
+	list-style-type:none;
+	border-bottom:3px;
+	position:relative;
+	margin-top: 0;
+	margin-right: 8px;
+	margin-bottom: 0;
+	margin-left: 12px;
+}header .nav ul li:before,header .nav ul li:after{content:"";display:table;}
+
+header .nav ul li.active{color:#2f2a26;border-bottom:4px solid #00a37b;}
+header .nav a{color:#675c53;display:block;font-size:12px;font-weight:bold;letter-spacing:0.03em;padding:8px 2px 2px 2px;text-decoration:none;text-transform:uppercase;white-space:nowrap;}
+header .nav a:hover{border-bottom:2px solid #69b40f;color:#2f2a26;}
+header .logo {margin-left:60px;margin-right:20px}
+#topsearchbar {
+	float:left;
+	padding-left:0px;
+	padding-right:0px;
+	margin-bottom:8px;
+	margin-top:20px;
+	margin-right: 10px;
+	background-image: url(../images/mic.png);
+	background-repeat: no-repeat;
+	background-position: 160px;
+}
+#searchinput {
+	border:2px solid green;
+	border-radius:5px;
+	background-attachment: fixed;
+		background-repeat: no-repeat;
+	background-position: 50px;
+	 background:transparent;
+	
+}
+
+#pager{
+	float:left;
+	margin-right:200px;
+	width:60px;
+	margin-left:auto;
+	margin-right:auto;
+	
+	margin-top:10px;
+	z-index:99999;
+	
+	/* border:1px solid skyblue; */
+}
+
+
+#pager a{
+	width:50px;
+	margin:8px;
+	list-style:none;
+	
+	
+	font-size:0px;
+	text-decoration:none;
+	border:5px solid #cccccc;
+	border-radius:9px;
+	background-color:#cccccc;
+	color:#cccccc;
+}
+
+#pager a.activeSlide{
+	font-size:0;
+	text-decoration:none;
+	border:7px solid #009966;
+	border-radius:9px;
+	backgound-color:#009966 ;
+	color:#009966;
+}
+#boyan-main .content_title ul {
+	text-align:center;
+	
+}
+#boyan-main .content_title ul .content_nav {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #093;
+	text-decoration: none;
+	width: 220px;
+	clear: both;
+	list-style-type: none;
+	margin-bottom: 15px;
+	
+	margin-left: 100px;
+	padding-left:50px;
+}
+
+#boyan-main .content_title ul .content_nav a{
+	color:#675c53;display:block;font-size:10px;font-weight:bold;letter-spacing:0.03em;;text-decoration:none;text-transform:uppercase;white-space:nowrap;
+}
+#boyan-main .content_title ul .content_nav_active{
+	background-image: url(../images/arrow.png);
+	text-decoration: none;
+	float: none;
+	width: 220px;
+	clear: both;
+	list-style-type: none;
+	margin-bottom: 15px;
+	margin-left: 100px;
+	background-repeat: no-repeat;
+	margin-right: 20px;
+	padding-left:50px;
+	background-position: right;
+}
+#boyan-main .content_title ul .content_nav_active a{
+	color:#FFF;display:block;font-size:10px;font-weight:bold;letter-spacing:0.03em;;text-decoration:none;text-transform:uppercase;white-space:nowrap;
+}
+#boyan-main .content_title {
+	position:relative;
+	left:-30px;
+	width:230px;
+	float:left;
+}
+#boyan-main .content_body {
+	float: left;
+	width:550px;
+	padding-left:150px;
+}
+#boyan-main #content_wrapper {
+	position: relative;
+	display:inline-block;
+}#boyan-main #content_wrapper .content_body p {
+	font-size: 14px;
+	line-height: 25px;
+	font-family: "宋体";
+	text-align: left;
+
+}
+#boyan-main #content_wrapper .content_body #joinus pre {
+	font-size: 14px;
+	line-height: 25px;
+	text-align: left;
+}
